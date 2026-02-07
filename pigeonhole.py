@@ -14,6 +14,7 @@ def run_pigeonhole(code):
 
     exec("\n".join(py_lines))
 
+
 if __name__ == "__main__":
     if len(sys.argv) < 2:
         print("Usage: python pigeonhole.py <file.ph>")

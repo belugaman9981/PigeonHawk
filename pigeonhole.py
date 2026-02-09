@@ -10,4 +10,3 @@ with open(sys.argv[1]) as f:
 code = code.replace("display(", "print(")
 
 exec(code)
-
